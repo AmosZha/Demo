@@ -1,4 +1,4 @@
-import java.util.Objects;
+package Multithreading;
 
 /**
  * 多线程实现龟兔赛跑

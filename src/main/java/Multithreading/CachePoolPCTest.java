@@ -1,3 +1,5 @@
+package Multithreading;
+
 /**
  * 管程法 - 监测消费生产模式
  **/
@@ -81,7 +83,7 @@ class Chicken{
 class SynContainer{
 
     //容器大小
-    // CopyOnWriteArrayList<Chicken> chickenList = new CopyOnWriteArrayList<Chicken>();
+    // CopyOnWriteArrayList<ThreadTest.Chicken> chickenList = new CopyOnWriteArrayList<ThreadTest.Chicken>();
     Chicken[] chickenArr = new Chicken[10];
 
     //容器计数器

@@ -1,4 +1,4 @@
-import com.sun.org.apache.bcel.internal.generic.NEW;
+package Multithreading;
 
 /**
  * 静态代理

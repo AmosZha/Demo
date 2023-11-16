@@ -1,3 +1,5 @@
+package Multithreading;
+
 /**
  * 信号灯法
  **/
