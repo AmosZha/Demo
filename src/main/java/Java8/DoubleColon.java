@@ -1,12 +1,8 @@
 package Java8;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.io.PrintStream;
 import java.util.Comparator;
@@ -26,9 +22,7 @@ import java.util.function.*;
  * 类构造器引用语法： classname::new 例如：ArrayList::new
  * 数组构造器引用语法： typename[]::new 例如： String[]:new
  **/
-
-@RunWith(SpringJUnit4ClassRunner.class)
-public class DoubleColon {
+ public class DoubleColon {
 
     //*************************一、方法引用*************************
     /**

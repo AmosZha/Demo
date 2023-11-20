@@ -1,8 +1,5 @@
 package Reflection;
 
-import com.sun.xml.internal.org.jvnet.fastinfoset.stax.LowLevelFastInfosetStreamWriter;
-import javafx.scene.effect.Reflection;
-
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
