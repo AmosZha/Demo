@@ -1,4 +1,4 @@
-package Multithreading;
+package com.zhao.Multithreading;
 
 /**
  * 信号灯法

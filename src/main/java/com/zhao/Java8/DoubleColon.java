@@ -1,4 +1,4 @@
-package Java8;
+package com.zhao.Java8;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package Multithreading;
+package com.zhao.Multithreading;
 
 /**
  * 静态代理

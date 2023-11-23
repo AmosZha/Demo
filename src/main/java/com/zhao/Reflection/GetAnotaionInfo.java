@@ -1,4 +1,4 @@
-package Reflection;
+package com.zhao.Reflection;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -32,16 +32,23 @@ public class GetAnotaionInfo {
  * 自定义注解
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
+@Target({ElementType.METHOD})
 @interface MyAnnotation {
+
     String name();
+
     int value();
+
 }
 
 /**
  * 注解类
  */
-@MyAnnotation(name="example", value=10)
 class MyClass {
     // ...
+
+    @MyAnnotation(name="GetAllAnotaionClassesInfoByReflection", value=10)
+    public void annotationInfo(){
+        System.out.println("hello!");
+    }
 }

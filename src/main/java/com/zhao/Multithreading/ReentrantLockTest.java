@@ -1,4 +1,4 @@
-package Multithreading;
+package com.zhao.Multithreading;
 
 import java.util.concurrent.locks.ReentrantLock;
 

@@ -1,4 +1,4 @@
-package Multithreading;
+package com.zhao.Multithreading;
 
 /**
  * 管程法 - 监测消费生产模式

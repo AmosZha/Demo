@@ -1,4 +1,4 @@
-package Multithreading; /**
+package com.zhao.Multithreading; /**
  * （注：系统名称 - 模块名称 - 功能名称）
  * Copyright 1998-2023 company dept
  *

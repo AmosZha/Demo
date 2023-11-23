@@ -1,12 +1,10 @@
-package Reflection;
+package com.zhao.Reflection;
 
-import DesignPattern.SingletonTest;
+import com.zhao.DesignPattern.SingletonTest;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
 import java.util.Arrays;
 
 /**
@@ -73,7 +71,7 @@ public class AcquireReflaction {
 
 
         try {
-            Class<?> aClass = Class.forName("DesignPattern.SingletonTest");
+            Class<?> aClass = Class.forName("com.zhao.DesignPattern.SingletonTest");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

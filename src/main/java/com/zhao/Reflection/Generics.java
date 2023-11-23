@@ -1,4 +1,4 @@
-package Reflection;
+package com.zhao.Reflection;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
@@ -7,15 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * （注：系统名称 - 模块名称 - 功能名称）
- * Copyright 1998-2023 company dept
- * @author zhaoYI 2023-11-19 15:45
- * @version 0.1
- * @date 2023-11-19（注：最后更新日期）
- * Modification History:
- *    Date         Author       Version     Description
- * ****************************************************
- *  2023-11-19   zhaoYI       0.1         初始开发
+ * 反射与泛型
  **/
 
 public class Generics {

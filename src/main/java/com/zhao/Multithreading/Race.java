@@ -1,4 +1,4 @@
-package Multithreading;
+package com.zhao.Multithreading;
 
 /**
  * 多线程实现龟兔赛跑

@@ -1,4 +1,4 @@
-package Reflection;
+package com.zhao.Reflection;
 
 /**
  * 类加载过程
@@ -37,7 +37,7 @@ public class ClassLoaderTest {
 
 
         //测试当前类是哪个加载器加载的【app加载器】
-        ClassLoader classLoader = Class.forName("Reflection.A").getClassLoader();
+        ClassLoader classLoader = Class.forName("com.zhao.Reflection.A").getClassLoader();
         System.out.println("自定义类A 加载器：" + classLoader);
 
         //测试jdk内置类是哪个加载器加载的【根加载器(c/c++)】
