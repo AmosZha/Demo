@@ -1,4 +1,4 @@
-package DesignPattern;
+package com.zhao.DesignPattern;
 
 /**
  * @description： 单例测试
