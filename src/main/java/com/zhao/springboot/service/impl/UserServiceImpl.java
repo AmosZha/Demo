@@ -1,9 +1,10 @@
 package com.zhao.springboot.service.impl;
 
-import com.alibaba.fastjson.JSONObject;
 import com.zhao.springboot.entity.User;
 import com.zhao.springboot.mapper.UserMapper;
 import com.zhao.springboot.service.UserService;
+import com.zhao.springboot.util.MySqlSessionFactory;
+import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -54,4 +55,6 @@ public class UserServiceImpl implements UserService {
     public User getUserByConditions(Map<String, Object> condition) {
         return userMapper.getUserByConditions(condition);
     }
+
+
 }
