@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    #应用的名称
+    name: demo
+  profiles:
+    active: reggie
+  datasource:
+    url: jdbc:mysql://${demo.mysql.ip}:${demo.mysql.port}/${demo.mysql.db}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: ${demo.mysql.username}
+    password: ${demo.mysql.password}
+    driver-class-name: ${demo.mysql.drive}
+    hikari:
+      minimum-idle: 3
+      maximum-pool-size: 10
+      max-lifetime: 30000   #不能小于30秒，否则默认回到1800秒
+      connection-test-query: SELECT 1
