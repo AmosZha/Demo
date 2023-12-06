@@ -17,7 +17,7 @@ import java.util.concurrent.*;
  * @return:
  * @Date: 2023/11/13
  */
-public class FutureDemo {
+public class FutureTest {
     public static void main(String[] args) throws Exception {
         //1.获取线程池对象
         ExecutorService es = Executors.newCachedThreadPool();
